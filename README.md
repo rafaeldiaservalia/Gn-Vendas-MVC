@@ -18,20 +18,27 @@ Estrutura de pasta e arquivos depois de ralizados os passos anteriores:
 ```
  -www         
     -Gn-Vendas
-        +classes
         +config
+           -Conexao.php
+        +controller
+           -ComprarController.php
+           -ProdutoController.php
         +css
+           -estilo.css
         +js
-        +vendor
-        -cadastraProdutos.php
-        -cadastrar.php
+           -formatacao.js
+        +model
+           -Compras.php
+           -Produtos.php
+        +vendo
+        +view 
+           -cadastra_view.php
+           -compra_view.php
+           -pedido_view.php
+           -produto_view.php
         -composer.json
         -composer.lock
-        -compra.php
-        -efitivarCompra.php
-        -index.php
-        -menu.php
-        -pedidos.php
+        -index.php 
         -README
 
 ```
